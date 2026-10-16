@@ -1,12 +1,12 @@
 [submodule "pack/plugins/start/autoconf.nvim"]
 	path = pack/plugins/start/autoconf.nvim
-	url = git@github.com:OlegHQ/autoconf.nvim
+	url = git@github.com:olegpustovit/autoconf.nvim
 	branch = dev
 [submodule "pack/plugins/start/themekit.nvim"]
 	path = pack/plugins/start/themekit.nvim
-	url = git@github.com:OlegHQ/themekit.nvim
+	url = git@github.com:olegpustovit/themekit.nvim
 	branch = dev
 [submodule "pack/plugins/start/workbench.nvim"]
 	path = pack/plugins/start/workbench.nvim
-	url = git@github.com:OlegHQ/workbench.nvim.git
+	url = git@github.com:olegpustovit/workbench.nvim.git
 	branch = dev

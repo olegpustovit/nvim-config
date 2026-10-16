@@ -4,7 +4,7 @@ A simple Neovim configuration demonstrating the power of `autoconf.nvim` and `th
 
 ## Workbench Development
 
-Workspace exploration is integrated through [workbench.nvim](https://github.com/OlegHQ/workbench.nvim), checked out at `pack/plugins/start/workbench.nvim`. Its runtime is opt-in and disabled by default. Run `:Workbench enable`, then use `Space W` for Files or `Space /` for Search; `:Workbench disable` closes Workbench-owned views and releases its runtime resources. `Space f` stays the quick file picker, while `Space /` replaces the former global-search binding. Native submodule and optional Nix installations are pinned to the same published runtime revision.
+Workspace exploration is integrated through [workbench.nvim](https://github.com/olegpustovit/workbench.nvim), checked out at `pack/plugins/start/workbench.nvim`. Its runtime is opt-in and disabled by default. Run `:Workbench enable`, then use `Space W` for Files or `Space /` for Search; `:Workbench disable` closes Workbench-owned views and releases its runtime resources. `Space f` stays the quick file picker, while `Space /` replaces the former global-search binding. Native submodule and optional Nix installations are pinned to the same published runtime revision.
 
 ![Neovim](https://img.shields.io/badge/Neovim-0.9.0+-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
@@ -39,15 +39,15 @@ Workspace exploration is integrated through [workbench.nvim](https://github.com/
 - **Neovim 0.9.0+** (latest stable recommended)
 - **Git** for installation
 - **Node.js** (for LSP servers)
-- [autoconf.nvim](https://github.com/OlegHQ/autoconf.nvim)
-- [themekit.nvim](https://github.com/OlegHQ/themekit.nvim)
+- [autoconf.nvim](https://github.com/olegpustovit/autoconf.nvim)
+- [themekit.nvim](https://github.com/olegpustovit/themekit.nvim)
 
 ### Installation
 
 1. **Clone the configuration**:
 
    ```bash
-   git clone https://github.com/OlegHQ/nvim-config.git ~/.config/nvim
+   git clone https://github.com/olegpustovit/nvim-config.git ~/.config/nvim
    cd ~/.config/nvim
    ```
 
@@ -83,7 +83,7 @@ This configuration is optionally available as a Nix flake with a Home Manager mo
        home-manager.url = "github:nix-community/home-manager";
 
        nvimconf = {
-         url = "github:OlegHQ/nvim-config";
+         url = "github:olegpustovit/nvim-config";
          inputs.nixpkgs.follows = "nixpkgs";
        };
      };
@@ -349,6 +349,6 @@ Individual themes may have their own licenses. Check the `themes/licenses/` dire
 
 **Made with ❤️ for the Neovim community**
 
-[⭐ Star this repo](https://github.com/OlegHQ/nvim-config) | [🐛 Report issues](https://github.com/OlegHQ/nvim-config/issues) | [💬 Discuss](https://github.com/OlegHQ/nvim-config/discussions)
+[⭐ Star this repo](https://github.com/olegpustovit/nvim-config) | [🐛 Report issues](https://github.com/olegpustovit/nvim-config/issues) | [💬 Discuss](https://github.com/olegpustovit/nvim-config/discussions)
 
 </div>

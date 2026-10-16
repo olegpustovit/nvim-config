@@ -5,13 +5,13 @@
       "locked": {
         "lastModified": 1789296509,
         "narHash": "sha256-Ev917uj2Cn6Ugwg7NjfPHlw0IpwQTcpVDHjinq5/Zgw=",
-        "owner": "OlegHQ",
+        "owner": "olegpustovit",
         "repo": "autoconf.nvim",
         "rev": "fa7fc84bfafe3a7f4aaec936613056074bdfb5ed",
         "type": "github"
       },
       "original": {
-        "owner": "OlegHQ",
+        "owner": "olegpustovit",
         "repo": "autoconf.nvim",
         "type": "github"
       }
@@ -45,13 +45,13 @@
       "locked": {
         "lastModified": 1789296509,
         "narHash": "sha256-uTNfWDSYJ0e9p8rro0lcORIxjVFwQaVkmEhKlp1x+6s=",
-        "owner": "OlegHQ",
+        "owner": "olegpustovit",
         "repo": "themekit.nvim",
         "rev": "e5424d5fccefb88d10b577740be0f3c56bc6fcda",
         "type": "github"
       },
       "original": {
-        "owner": "OlegHQ",
+        "owner": "olegpustovit",
         "repo": "themekit.nvim",
         "type": "github"
       }
@@ -61,13 +61,13 @@
       "locked": {
         "lastModified": 1789296587,
         "narHash": "sha256-fjFdDEp0xUuvwn0UB/nEZp4AmDtKB6kKJDkmxi3aQrs=",
-        "owner": "OlegHQ",
+        "owner": "olegpustovit",
         "repo": "workbench.nvim",
         "rev": "909b3d94a2e06bb7bf985e128d3cc8b4338805f4",
         "type": "github"
       },
       "original": {
-        "owner": "OlegHQ",
+        "owner": "olegpustovit",
         "ref": "dev",
         "repo": "workbench.nvim",
         "type": "github"

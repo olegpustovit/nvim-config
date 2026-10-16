@@ -18,11 +18,11 @@ This project spans five independent git repositories (the Nix checkout may not b
 
 | Repository | Path | Remote | Branch |
 |---|---|---|---|
-| **nvim-config** | `.` (root) | `git@github.com:OlegHQ/nvim-config.git` | `dev` |
-| **autoconf.nvim** | `pack/plugins/start/autoconf.nvim` | `git@github.com:OlegHQ/autoconf.nvim` | `dev` |
-| **themekit.nvim** | `pack/plugins/start/themekit.nvim` | `git@github.com:OlegHQ/themekit.nvim` | `dev` |
-| **workbench.nvim** | `pack/plugins/start/workbench.nvim` | `git@github.com:OlegHQ/workbench.nvim.git` | `dev` |
-| **nixos-config** | `nixos-config/` | `git@github-personal:OlegHQ/nixos-config.git` | `dev` |
+| **nvim-config** | `.` (root) | `git@github.com:olegpustovit/nvim-config.git` | `dev` |
+| **autoconf.nvim** | `pack/plugins/start/autoconf.nvim` | `git@github.com:olegpustovit/autoconf.nvim` | `dev` |
+| **themekit.nvim** | `pack/plugins/start/themekit.nvim` | `git@github.com:olegpustovit/themekit.nvim` | `dev` |
+| **workbench.nvim** | `pack/plugins/start/workbench.nvim` | `git@github.com:olegpustovit/workbench.nvim.git` | `dev` |
+| **nixos-config** | `nixos-config/` | `git@github-personal:olegpustovit/nixos-config.git` | `dev` |
 
 ### Flake
 
@@ -37,7 +37,7 @@ nix flake update autoconf-nvim themekit-nvim
 
 - Custom plugins are git submodules under `pack/plugins/start/`. Each plugin keeps its own git history, while nvim-config tracks the exact plugin commit as a gitlink (mode 160000).
 - Clone nvim-config with `git clone --recurse-submodules`, or initialize an existing checkout with `git submodule update --init --recursive`.
-- New submodule URLs must use the `git@github.com:OlegHQ/<plugin>.git` SSH form. Custom plugin submodules track `dev` in `.gitmodules`. Publish plugin commits before referencing them in parent gitlinks or runtime Nix pins.
+- New submodule URLs must use the `git@github.com:olegpustovit/<plugin>.git` SSH form. Custom plugin submodules track `dev` in `.gitmodules`. Publish plugin commits before referencing them in parent gitlinks or runtime Nix pins.
 - `nixos-config/` is also a separate git repo (gitignored by nvim-config).
 - **Always commit and push plugin code from within the plugin directory**, not from the root:
   ```sh
