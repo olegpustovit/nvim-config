@@ -1,0 +1,32 @@
+    1 -- Synthetic buffer for the configuration capture.                                            
+    2 local function total(quantity, price)                                                         
+    3   return quantity * price                                                                     
+    4 end                                                                                           
+    5                                                                                               
+    6 print(total(2, 50))                                                                           
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+/tmp/repo-unslop-workspaces/nvim-config/docs/demo/sample.lua                      1,1            All
+                                                                                                    
